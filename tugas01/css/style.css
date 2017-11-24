@@ -1,0 +1,59 @@
+body
+{
+  background-color: #87CEEB;
+  background-size: cover;
+  background-image: url("img/lala.jpeg");
+}
+
+#koleksi
+{
+  text-align: left;
+  color: red;
+  font-family: serif;
+}
+
+#judul
+{
+  text-align: center;
+  font-family: sans-serif;
+  color: blue;
+}
+a:link, a:visited, a:active
+{
+  width: 200px;
+  margin: 2px;
+  background-color: #5f9ea0;
+  color: cyan;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover
+{
+  width: 200px;
+  margin: 2px;
+  background-color: #c60909;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: underline;
+  display: flow-root;
+}
+
+img
+{
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#lagu
+{
+  text-align: center;
+  font-family: verdana;
+  font-size: 18px;
+  font-style: italic;
+}
