@@ -1,80 +1,82 @@
-body
-{
-  background-color: #ddeeff;
-  font-family: verdana;
+body {
+   background-color: #ddeeff;
+   font-family: Verdana;
 }
 
 /* layout */
-.container
-{
-
+.container {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
-.sidemenu
-{
+.sidemenu {
   position: relative;
   width: 25%;
   float: left;
 }
 
-.content
-{
+.content {
   width: 75%;
   margin-left: 25%;
 }
-
 /* menu */
 
-.menu
-{
+.menu {
   width: 100%;
   margin-left: -40px;
+  border-top: 15px;
+  border-bottom: 15px;
+  border-right: 15px;
+  border-left: 15px;
 }
 
-.menu li
-{
+.menu li {
   list-style: none;
   margin: 6px;
   line-height: 40px;
   background-color: #059305;
   text-align: center;
   font-weight: bold;
-}
+  border-top: 15px;
+  border-bottom: 15px;
+  border-right: 15px;
+  border-left: 15px;
+ }
 
-.menu li a
-{
-  text-decoration: none;
-  color: #ffffff;
+.menu li a {   text-decoration: none;
+  color: #FFFFFF;
   display: block;
   box-shadow: 3px 3px #343537;
+  border-top: 15px;
+  border-bottom: 15px;
+  border-right: 15px;
+  border-left: 15px;
 }
 
-.menu li a:hover
-{
+.menu li a:hover {
   text-decoration: none;
   color: #000000;
-  background-color: #33b5e5;
+  background-color: #33B5E5;
   box-shadow: 5px 5px #343537;
+  border-top: 15px;
+  border-bottom: 15px;
+  border-right: 15px;
+  border-left: 15px;
 }
 
-/* content */
-.judulutama
-{
-  padding: 15px;
-  background-color: #747ae3;
-  text-align: center;
-  color: #fff;
-  text-shadow: 3px 3px #343537;
-  box-shadow: 5px 5px #5b6783;
-  border-radius: 5px;
+/* content */ .judulutama {
+padding: 15px;
+background-color: #747ae3;
+text-align: center;
+color: #fff;
+text-shadow: 3px 3px #343537;
+box-shadow: 5px 5px #5b6783;
+border-radius: 5px;
 }
 
-.bloklagu
-{
+.bloklagu {
   width: 600px;
   box-shadow: 5px 5px #5b6783;
   background-color: #dcd8eb;
@@ -88,17 +90,25 @@ body
   font-weight: bold;
   text-align: center;
   padding-bottom: 10px;
-}
+ }
 
-.boxgambar
-{
+ #info
+  {
+    color: #ff00ff;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: auto;
+    width: 600px;
+    padding: 10px;
+  }
+
+.boxgambar {
   width: 100%;
   height: 300px;
   overflow: hidden;
 }
 
-.gambarlagu
-{
+.gambarlagu {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -106,40 +116,37 @@ body
   display: block;
 }
 
-.judullagu
-{
+.judullagu {
   color: #7f2ed1;
+  font-family: 'Special Elite';
   text-shadow: 2px 2px #343537;
 }
+.tekslagu {
+  font-family: cursive;
+}
 
-#copyright
-{
-  position: sticky;
+#copyright {   position: sticky;
   width: 100%;
   line-height: 30px;
   margin-bottom: 0px;
+  margin-top: 450px;
   background-color: #fff;
   text-align: center;
   font-size: 10px;
 }
 
 /* responsive layout */
-@media screen and (max-width: 720px)
-{
-  .sidemenu
-  {
+@media screen and (max-width: 720px) {
+  .sidemenu   {
     width: 100%;
   }
-
-  .content
-  {
+  .content   {
     width: 100%;
     margin-left: auto;
   }
 
-  .bloklagu
-  {
-    width: 95%;
-  }
+ .bloklagu   {
+   width: 95%;
+ }
 
 }
